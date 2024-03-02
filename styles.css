@@ -1,0 +1,82 @@
+/* Resetting default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; /* Align h1 to the left and navbar to the right */
+    align-items: center; /* Center vertically */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.0em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 4%;
+    margin-bottom: 3%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Sticky navigation styles */
+#header{
+    position: fixed;
+    width: 100%;
+    background-color: #333; /* Add background color */
+    transition: top 0.3s; /* Add smooth transition */
+}
+
+.sticky {
+    top: 0; /* Position at the top when sticky */
+}
+.flashing {
+    animation: flash 0.5s ease-in-out;
+}
+
+@keyframes flash {
+    0% { background-color: inherit; }
+    50% { background-color: rgb(209, 209, 209); }
+    100% { background-color: inherit; }
+}
