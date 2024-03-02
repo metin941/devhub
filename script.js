@@ -16,10 +16,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             setTimeout(() => {
                 // Remove flashing class after 500ms
                 target.classList.remove('flashing');
-            }, 500); // Adjust the time as needed
-        }, 500); // Adjust the time as needed
+            }, 400); // Adjust the time as needed
+        }, 400); // Adjust the time as needed
     });
 });
+
 window.addEventListener('scroll', function() {
     const header = document.getElementById('header');
     const navbar = document.getElementById('navbar');
@@ -37,3 +38,8 @@ window.addEventListener('scroll', function() {
         navbar.style.top = '20px'; // Adjust this value to your liking
     }
 });
+
+// Get current year
+var currentYear = new Date().getFullYear();
+// Update footer date
+document.getElementById("footer-date").innerHTML = "&copy; " + currentYear + " Metin Hasanov";
