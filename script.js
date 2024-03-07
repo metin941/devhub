@@ -39,6 +39,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
 // Get current year
 var currentYear = new Date().getFullYear();
 // Update footer date
