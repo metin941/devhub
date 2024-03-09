@@ -89,10 +89,9 @@ body {
 
 
 
-section {
-    
-    padding: 40%;
-    margin-bottom: 3%;
+section { 
+    padding: 4%;
+    margin-bottom: 30%;
     background-color: #b2b2b44b;
     border-radius: 5px;
 }
