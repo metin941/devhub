@@ -39,7 +39,25 @@ window.addEventListener('scroll', function() {
     }
 });
 
+function selectOption(optionText) {
+    var dropdownButton = document.getElementById("dropdown-button");
+    var dropdownContent = document.getElementById("dropdown-content");
 
+    // Update the text of the button to the selected option
+    dropdownButton.textContent = optionText;
+
+    // Hide the dropdown content
+    dropdownContent.style.display = "none";
+}
+
+function toggleDropdown() {
+    var dropdownContent = document.getElementById("dropdown-content");
+    if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+        dropdownContent.style.display = "block";
+    } else {
+        dropdownContent.style.display = "none";
+    }
+}
 // Get current year
 var currentYear = new Date().getFullYear();
 // Update footer date

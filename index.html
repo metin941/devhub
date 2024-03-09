@@ -9,16 +9,16 @@
 <body>
     <header id="header">
         <h1>John Doe</h1>
-        <nav id="navbar">
-            <ul>
-                <li><a href="#about" onclick="handleClick()">About</a></li>
-                <li><a href="#education" onclick="handleClick()">Education</a></li>
-                <li><a href="#experience" onclick="handleClick()">Experience</a></li>
-                <li><a href="#skills" onclick="handleClick()">Skills</a></li>
-                <li><a href="#projects" onclick="handleClick()">Projects</a></li>
-                <!-- Add more navigation links as needed -->
-            </ul>
-        </nav>
+        <div id="dropdown">
+            <button id="dropdown-button" onclick="toggleDropdown()">About</button>
+            <div id="dropdown-content">
+                <a href="#about" onclick="selectOption('About')">About</a>
+                <a href="#education" onclick="selectOption('Education')">Education</a>
+                <a href="#experience" onclick="selectOption('Experience')">Experience</a>
+                <a href="#skills" onclick="selectOption('Skills')">Skills</a>
+                <a href="#projects" onclick="selectOption('Projects')">Projects</a>
+            </div>
+        </div>
     </header>
     
     <section id="about">
