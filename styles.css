@@ -120,22 +120,3 @@ footer {
     50% { background-color: rgb(209, 209, 209); }
     100% { background-color: inherit; }
 }
-
-.about-content {
-    display: flex;
-    align-items: center;
-}
-
-.about-content img {
-    width: 10%; /* Adjust image width as needed */
-    margin-right: 20px; /* Add some space between image and paragraph */
-    border-radius: 10px;
-}
-
-.about-content p {
-    width: 100%; /* Adjust paragraph width as needed */
-    font-size: 26px;
-    line-height: 1.5;
-    color: #333;
-    font-family:Times New Roman, Times, serif;
-}
