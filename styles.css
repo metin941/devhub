@@ -91,7 +91,8 @@ body {
 
 
 section {
-    margin-bottom: 10%;
+    padding: 50px;
+    margin-bottom: 10px;
     background-color: #b2b2b44b;
     border-radius: 5px;
 }
