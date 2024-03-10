@@ -1,8 +1,8 @@
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1068px) {
     /* Adjust padding or margin for smaller screens */
     section {
-        padding-top: 120px; /* Add extra padding to the top of sections */
+        padding-top: 100px; /* Add extra padding to the top of sections */
     }
 }
 
