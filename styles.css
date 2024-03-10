@@ -91,14 +91,14 @@ body {
 
 
 section { 
-    top: 0;
+    margin-top: 10px;
     margin-bottom: 3%;
     background-color: #b2b2b44b;
     border-radius: 5px;
 }
 
 section h2 {
-    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 footer {
