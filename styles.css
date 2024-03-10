@@ -96,6 +96,11 @@ section {
     border-radius: 5px;
 }
 
+section h2 {
+    top: 0;
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
