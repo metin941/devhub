@@ -98,6 +98,11 @@ section {
     background-color: #b2b2b44b;
     border-radius: 5px;
 }
+section p{   
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 5%;
+}
 .sticky {
     top: 0; /* Position at the top when sticky */
 }
