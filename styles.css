@@ -93,8 +93,8 @@ body {
 
 
 section {   
-    margin-top: 20px;
-    padding: 2%;
+    margin-bottom: 20px;
+    padding-block: 60px;
     background-color: #b2b2b44b;
     border-radius: 5px;
 }
