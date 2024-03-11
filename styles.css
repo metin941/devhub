@@ -11,7 +11,6 @@
     }
 
     #about img {
-        margin-left: 30%; /* Center align the image within its container */
         display: block; /* Ensure the image is treated as a block element */
         max-width: 100%; /* Ensure the image doesn't exceed its container */
         margin-bottom: 20px; /* Add some space between the image and the paragraph */
