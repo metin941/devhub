@@ -130,9 +130,10 @@ section h2{
 }
 
 #about img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
     margin-right: 2%; /* Add some space between the image and the paragraph */
     border-radius: 20px;
+    width: 500px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /*End of region*/
