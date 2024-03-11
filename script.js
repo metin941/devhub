@@ -23,19 +23,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 window.addEventListener('scroll', function() {
     const header = document.getElementById('header');
-    const navbar = document.getElementById('navbar');
+    const section_about = document.getElementById('about');
+    const section_education = document.getElementById('education');
+    const section_experience = document.getElementById('experience');
+    const section_skills = document.getElementById('skills');
+    const section_projects = document.getElementById('projects');
     const sticky = header.offsetTop;
 
     if (window.pageYOffset > sticky) {
-        navbar.classList.add('sticky');
+        header.classList.add('sticky');
     } else {
-        navbar.classList.remove('sticky');
+        header.classList.remove('sticky');
     }
 
+    // Adjusting the padding of the section when the header becomes sticky
     if (window.pageYOffset > 50) {
-        navbar.style.top = '0';
+        header.style.top = '0px';
+        section_about.style.paddingBlock = '60px';
+        section_education.style.paddingBlock = '60px';
+        section_experience.style.paddingBlock = '60px';
+        section_skills.style.paddingBlock = '60px';
+        section_projects.style.paddingBlock = '60px';
     } else {
-        navbar.style.top = '20px'; // Adjust this value to your liking
+        header.style.top = '0px'; // Adjust this value to your liking
+        section_about.style.paddingBlock = '60px';
+        section_education.style.paddingBlock = '60px';
+        section_experience.style.paddingBlock = '60px';
+        section_skills.style.paddingBlock = '60px';
+        section_projects.style.paddingBlock = '60px';
     }
 });
 
